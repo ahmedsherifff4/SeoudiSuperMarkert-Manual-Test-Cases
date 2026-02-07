@@ -25,6 +25,7 @@ The testing process covered the following modules:
 ## 📂 Project Deliverables
 
 ### 1️⃣ Test Cases Suite
+[`File Of Test Cases`](https://github.com/ahmedsherifff4/Movie-Store-Management-System/blob/a7743b8c43c0d613960b4c579d68c30d5b2e7a19/src/main.cpp)
 Detailed test cases were designed to cover various scenarios, including:
 * Adding multiple items to the cart and verifying quantities.
 * Validating promo code fields (valid, invalid, and empty states).
@@ -64,4 +65,5 @@ During execution, several defects were identified and documented. Key bugs inclu
 ## 👤 By
 **Ahmed Sherif**
 * **Role:** Software Quality Control Engineer
+
 
