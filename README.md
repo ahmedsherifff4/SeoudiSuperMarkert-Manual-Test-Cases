@@ -61,8 +61,7 @@ During execution, several defects were identified and documented. Key bugs inclu
 
 ---
 
-## 👤 Author
+## 👤 By
 **Ahmed Sherif**
 * **Role:** Software Quality Control Engineer
-* **LinkedIn:** [Your LinkedIn Profile Link]
-* **Email:** [Your Email Address]
+
