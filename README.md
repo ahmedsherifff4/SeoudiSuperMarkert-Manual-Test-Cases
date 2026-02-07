@@ -7,7 +7,7 @@ A comprehensive manual testing project for the **Seoudi Market** e-commerce plat
 ## 📌 Project Overview
 This project validates the core functionalities of the Seoudi Market website to ensure a seamless and error-free shopping experience for users.
 
-* **Target Website:** [Seoudi Market](https://seoudimarket.com/)
+* **Target Website:** [Seoudi Market](https://seoudisupermarket.com)
 * **Testing Types:** Manual Testing, Functional Testing, UI/UX Testing, and Regression Testing.
 * **Primary Goal:** Identifying critical functional defects and verifying requirement coverage.
 
@@ -66,6 +66,7 @@ During execution, several defects were identified and documented. Key bugs inclu
 ## 👤 By
 **Ahmed Sherif**
 * **Role:** Software Quality Control Engineer
+
 
 
 
