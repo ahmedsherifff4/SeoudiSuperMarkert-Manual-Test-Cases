@@ -1,63 +1,68 @@
 # 🛒 Seoudi Market - Manual Testing Project
 
-A comprehensive manual testing project for the **Seoudi Market** e-commerce platform. This repository documents the test planning, execution, and bug reporting process to ensure a seamless user experience.
+A comprehensive manual testing project for the **Seoudi Market** e-commerce platform. This repository documents the end-to-end testing process, from test case design to bug reporting and validation.
 
 ---
 
 ## 📌 Project Overview
-The goal of this project is to validate the core functionalities of the Seoudi Market website, ensuring that users can browse, shop, and checkout without critical failures.
+This project validates the core functionalities of the Seoudi Market website to ensure a seamless and error-free shopping experience for users.
 
 * **Target Website:** [Seoudi Market](https://seoudimarket.com/)
-* **Testing Type:** Manual Testing (Functional, UI/UX, Regression)
-* **Deliverables:** Test Plan, Test Cases Suite, and Bug Reports.
-
----
-
-## 🛠️ Tools Used
-* **Google Sheets / MS Excel:** For designing and managing Test Cases.
-* **Lightshot / Awesome Screenshot:** For capturing visual bugs.
-* **Trello (Optional):** Used as a Kanban board to track testing progress.
+* **Testing Types:** Manual Testing, Functional Testing, UI/UX Testing, and Regression Testing.
+* **Primary Goal:** Identifying critical functional defects and verifying requirement coverage.
 
 ---
 
 ## 🧪 Testing Scope
-The testing process was divided into several modules to ensure 100% requirement coverage:
-
-1.  **User Authentication:** Registration, Login, and Password Recovery.
-2.  **Product Discovery:** Search functionality, Category filters, and Sorting.
-3.  **Cart Management:** Adding/Removing items, Quantity updates, and Price calculation.
-4.  **Checkout Flow:** Shipping details, Payment method selection, and Order confirmation.
-5.  **Responsiveness:** Testing the UI across different screen resolutions.
-
-
+The testing process covered the following modules:
+* **User Authentication:** Registration, Login, and Profile Management.
+* **Product Catalog:** Search, Category filtering, and Sorting mechanisms.
+* **Shopping Cart:** Adding/removing items and price calculations.
+* **Checkout Process:** Address book management and order placement.
 
 ---
 
-## 📂 Project Structure
-* `/Test-Cases`: Contains the full Excel/CSV file with detailed steps.
-* `/Bug-Reports`: Detailed documentation of discovered issues with reproduction steps.
-* `/Test-Plan`: The strategy and environment details used for this project.
+## 📂 Project Deliverables
 
----
+### 1️⃣ Test Cases Suite
+Detailed test cases were designed to cover various scenarios, including:
+* Adding multiple items to the cart and verifying quantities.
+* Validating promo code fields (valid, invalid, and empty states).
+* Verifying search functionality by keywords and filters.
 
-## 📊 Sample Test Case Preview
+### 2️⃣ Bug Reporting (Defect Documentation)
+During execution, several defects were identified and documented. Key bugs include:
 
-| ID | Module | Title | Steps | Expected Result |
+| Bug ID | Title/Summary | Severity | Priority | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **TC-001** | Login | Valid Login | 1. Enter valid email <br> 2. Enter valid password <br> 3. Click Login | User is redirected to the "My Account" page. |
-| **TC-002** | Search | Keyword Search | 1. Type "Apple" in search <br> 2. Press Enter | Results show relevant products containing "Apple". |
+| **BUG_01** | Sort by Price (Low to High) displays incorrect order. | Medium | High | New |
+| **BUG_02** | Sort by Price (High to Low) displays incorrect order. | Medium | High | New |
+| **BUG_134** | System accepts invalid phone numbers in Address Book without OTP. | Critical | High | New |
 
 ---
 
-## 🐛 Bug Report Sample
-* **Issue:** "Add to Cart" button is unresponsive on specific mobile viewports.
-* **Severity:** High
-* **Status:** Reported
+## 📈 Detailed Bug Samples
+
+### 🔴 Critical Bug: Address Validation Issue
+* **Description:** The system allows users to save an invalid phone number (e.g., `012345678992`) in the Address Book and proceed to checkout without any validation or OTP verification.
+* **Expected Result:** System should validate the format and send an OTP to confirm ownership.
+* **Actual Result:** Address saved successfully, and order confirmed with an incorrect number.
+
+### 🟡 Functional Bug: Sorting Malfunction
+* **Description:** When selecting "Sort by Price: Low to High", products appear in an inconsistent order, failing to maintain a true ascending sequence.
+* **Environment:** Tested on Windows 10 (Microsoft Edge) and Windows 11 (Firefox).
 
 ---
 
-## 👤 Contact
-**[Your Name]**
-* **LinkedIn:** [Your Profile Link]
-* **Portfolio:** [Your Portfolio Link]
+## 🛠️ Tools & Environment
+* **Documentation:** MS Excel / Google Sheets.
+* **Browsers:** Microsoft Edge (v141), Firefox (v144).
+* **OS:** Windows 10 & 11.
+
+---
+
+## 👤 Author
+**Ahmed Sherif**
+* **Role:** Software Quality Control Engineer
+* **LinkedIn:** [Your LinkedIn Profile Link]
 * **Email:** [Your Email Address]
