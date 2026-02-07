@@ -32,6 +32,7 @@ Detailed test cases were designed to cover various scenarios, including:
 * Verifying search functionality by keywords and filters.
 
 ### 2️⃣ Bug Reporting (Defect Documentation)
+[`File Of Bug Report To Download`](https://github.com/ahmedsherifff4/SeoudiSuperMarkert-Manual-Test-Cases/blob/62aabc31087cb1634b012deff34e1738ff9252ff/SeoudiSuperMarket-Test-Cases.xlsx)
 During execution, several defects were identified and documented. Key bugs include:
 
 | Bug ID | Title/Summary | Severity | Priority | Status |
@@ -65,6 +66,7 @@ During execution, several defects were identified and documented. Key bugs inclu
 ## 👤 By
 **Ahmed Sherif**
 * **Role:** Software Quality Control Engineer
+
 
 
 
