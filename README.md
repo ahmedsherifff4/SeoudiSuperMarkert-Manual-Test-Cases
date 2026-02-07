@@ -25,7 +25,7 @@ The testing process covered the following modules:
 ## 📂 Project Deliverables
 
 ### 1️⃣ Test Cases Suite
-[`File Of Test Cases`](https://github.com/ahmedsherifff4/SeoudiSuperMarkert-Manual-Test-Cases/blob/62aabc31087cb1634b012deff34e1738ff9252ff/SeoudiSuperMarket-Test-Cases.xlsx)
+[`File Of Test Cases To Download`](https://github.com/ahmedsherifff4/SeoudiSuperMarkert-Manual-Test-Cases/blob/62aabc31087cb1634b012deff34e1738ff9252ff/SeoudiSuperMarket-Test-Cases.xlsx)
 Detailed test cases were designed to cover various scenarios, including:
 * Adding multiple items to the cart and verifying quantities.
 * Validating promo code fields (valid, invalid, and empty states).
@@ -65,6 +65,7 @@ During execution, several defects were identified and documented. Key bugs inclu
 ## 👤 By
 **Ahmed Sherif**
 * **Role:** Software Quality Control Engineer
+
 
 
 
